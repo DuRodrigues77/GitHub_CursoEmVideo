@@ -21,11 +21,13 @@
 
     <script>
 
-        var nome = window.prompt('Qual é o seu nome? ')
-        document.write(`Seu nome tem ${nome.length} letras .<br/>`)
-        document.write(`Seu nome em Maiusculo é ${nome.toUpperCase()}<br/>`)
-        document.write(`Seu nome em minusculo é ${nome.toLowerCase()}`)
+        // var nome = window.prompt('Qual é o seu nome? ')
+        // document.write(`Seu nome tem ${nome.length} letras .<br/>`)
+        // document.write(`Seu nome em Maiusculo é ${nome.toUpperCase()}<br/>`)
+        // document.write(`Seu nome em minusculo é ${nome.toLowerCase()}`)
+let valor1 = Number.parseFloat(window.prompt('Qual o valor'))
 
+window.prompt(valor1.toLocaleString('pr-BR' , {style: 'currency' , currency:'BRL'}))
 
     </script>
 </body>
